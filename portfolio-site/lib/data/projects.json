@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Project Title 1",
+    "description": "Project description goes here. Explain what the project is about, the technologies used, and any notable features.",
+    "image": "/images/project_placeholder.png",
+    "link": "github.com",
+    "tags": ["Python", "Tauri", "HTML", "Javascript"]  
+  },
+  {
+    "id": 1,
+    "title": "Project Title 1",
+    "description": "Project description goes here. Explain what the project is about, the technologies used, and any notable features.",
+    "image": "/images/project_placeholder.png",
+    "link": "github.com",
+    "tags": ["Python", "Tauri", "HTML", "Javascript"]
+  },
+  {
+    "id": 1,
+    "title": "Project Title 1",
+    "description": "Project description goes here. Explain what the project is about, the technologies used, and any notable features.",
+    "image": "/images/project_placeholder.png",
+    "link": "github.com",
+    "tags": ["Python", "Tauri", "HTML", "Javascript"]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "tab": "3d",
+      "caption": "Abstract sculpture study — clay render",
+      "mediaType": "image",
+      "src": "/media/art/sculpture.jpg",
+      "thumbnail": "/media/art/sculpture-thumb.jpg",
+      "aspectRatio": "3/4"
+    }
+  ]
+}   

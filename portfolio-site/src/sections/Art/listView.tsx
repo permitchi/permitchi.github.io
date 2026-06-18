@@ -13,7 +13,8 @@ export default function ListView({ activeTab }: Posts) {
             {filtered.map((post) => (
             <div
                 key={post.id}
-                className="mb-8 bg-white rounded-md text-black shadow-sm"
+                className='mb-8 bg-white rounded-md text-black shadow-sm
+                ${post.tab === activeTab ? "block" : "hidden"}'
             >
                 <img
                 className={`w-full rounded-t-md aspect-[${post.aspectRatio}] object-cover`}

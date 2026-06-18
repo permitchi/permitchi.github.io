@@ -1,7 +1,7 @@
 {
   "post": [
     {
-      "id": "1",
+      "id": 1,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",
@@ -10,7 +10,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "2",
+      "id": 2,
       "tab": "illustration",
       "caption": "Illustration",
       "mediaType": "image",
@@ -19,7 +19,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "3",
+      "id": 3,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",
@@ -28,7 +28,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "4",
+      "id": 5,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",
@@ -37,7 +37,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "5",
+      "id": 6,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",
@@ -46,7 +46,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "6",
+      "id": 7,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",
@@ -55,7 +55,7 @@
       "aspectRatio": "3/4"
     },
     {
-      "id": "7",
+      "id": 8,
       "tab": "3d",
       "caption": "Abstract sculpture study — clay render",
       "mediaType": "image",

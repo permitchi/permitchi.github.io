@@ -16,15 +16,15 @@ export default function Art() {
   const [isGrid, setIsGrid] = useState(false)
   const [activeTab, setActiveTab] = useState<Tab>("3d")
   return (
-  <section className="min-h-screen text-white">
+  <section className="flex flex-col min-h-screen text-white">
         <Navbar />
         <ArtTab activeTab={activeTab} onTabChange={setActiveTab} />
 
-        <div className="mt-36 flex justify-center items-start">
-          <div className={isGrid ? "hidden" : "block"}>
+        <div className="flex-1 mt-36 flex justify-center items-start">
+          <div className={isGrid ? "block" : "hidden"}>
             <ListView activeTab={activeTab} />
           </div>
-          <div className={isGrid ? "block" : "hidden"}>
+          <div className={isGrid ? "hidden" : "block"}>
             <GridView activeTab={activeTab} />
           </div>
 

@@ -12,7 +12,8 @@ export default function GridView({ activeTab }: Posts) {
          {filtered.map((post) => (
           <div
             key={post.id}
-            className="bg-white rounded-md text-black shadow-sm break-inside-avoid"
+            className='bg-white rounded-md text-black shadow-sm break-inside-avoid
+            ${post.tab === activeTab ? "block" : "hidden"}'
           >
             <img
               className={`w-full rounded-t-md aspect-[${post.aspectRatio}] object-cover`}

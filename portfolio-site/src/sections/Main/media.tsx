@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Media() {
   return (
-    <section className="relative flex min-h-screen items-center justify-end overflow-hidden bg-black text-white">
+    <section className="relative flex min-h-screen items-center justify-start overflow-hidden bg-black text-white">
       
       {/* Background */}
       <div className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/images/background_placeholder.jpg')" }}>
@@ -39,9 +39,12 @@ export default function Media() {
           className="mt-10 flex flex-wrap gap-4"
         >
           <button className="rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:scale-105">
-            Check out my stuff!
+            View Projects
           </button>
 
+          <button className="rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-medium backdrop-blur transition hover:bg-white/10">
+            Contact
+          </button>
         </motion.div>
       </GlassCard>
     </section>

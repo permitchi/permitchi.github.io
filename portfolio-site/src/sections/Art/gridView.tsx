@@ -8,7 +8,7 @@ export default function GridView({ activeTab }: Posts) {
     const filtered = posts.post.filter((post) => post.tab === activeTab)
   return (
     <main className="flex mb-8 justify-center px-8">
-        <div className="w-full min-w-lg max-w-lg grid grid-cols-2 md:grid-cols-3">        
+        <div className="w-full min-w-lg max-w-lg grid grid-cols-2 md:grid-cols-3 overflow-auto">        
          {filtered.map((post) => (
           <div
             key={post.id}

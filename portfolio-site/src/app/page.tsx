@@ -2,8 +2,9 @@
 
 import Hero from "@/src/sections/Main/hero";
 import Projects from "@/src/sections/Main/projects";
+import Devlog from "@/src/sections/Main/devlog";
 import Media from "@/src/sections/Main/media";
-import Tools from "@/src/sections/Main/tools";
+import Tools from "../sections/Main/tools";
 import Navbar from "@/src/components/navbar";
 import Footer from "@/src/components/footer";
 import { useEffect } from "react";
@@ -23,6 +24,7 @@ export default function Home() {
         <Navbar />
         <Hero />
         <Projects />
+        <Devlog />
         <Media />
         <Tools />
         <Footer />
